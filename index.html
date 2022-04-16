@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+<!-- search bar -->
+    <div class="search-container">
+        <h2>Search for a City:</h2>
+        <div class="search-input">
+            <form action="/action_page.php"></form>
+            <input class="w3-input" type="text" name="city" id="form-input" placeholder="ex: Sacramento,ca">
+            <button id="fetch-btn" class="w3-bar w3-indigo w3-round-large" onclick="searchBtn" type="submit">Search</button>
+        </div>
+    </div>
+    <div id="card-container" class="current-forcast"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+
+</body>
+</html>
